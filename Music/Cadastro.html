@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/Music.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title></title>
+</head>
+
+<body onload="etapa1()">
+  <!------------------------------------- Header------------------------------------- -->
+  <div class="header">
+    <img src="css/INfinite.png" alt="logo" class="logo" onclick="OpenHome()">
+
+    <label for="" onclick="barra()">&#x2630;</label>
+    <div class="topicosHeader" id="topicosHeader">
+      <label for="" onclick="fecha()">X</label>
+      <a href="Index.html">Home</a>
+      <a href="Sobre.html">sobre</a>
+      <a href="Novidades.html">Novidade</a>
+      <a href="Premiun.html">Premiun</a>
+      <a href="">Baixar</a>
+
+      <div class="redesHeader">
+        <img src="css/facebookBranco.png" alt="" class="redes">
+        <img src="css/instagramBranco.png" alt="" class="redes">
+        <img src="css/linkedinBranco.png" alt="" class="redes">
+        <img src="css/twitterBranco.png" alt="" class="redes">
+      </div>
+    </div>
+
+    <div class="BtnsLogin">
+      <h1 onclick="AbreLogin()" class="Login">Login |</h1>
+      <a href="Cadastro.html" class="cadastro">Cadastre-se</a>
+    </div>
+  </div>
+
+  <!-- --------------------------------Box Login--------------------------------- -->
+  <div class="loginFundo" id="loginFundo">
+    <div class="loginFomr" id="loginFomr">
+      <label class="fecha" onclick="FechaLogin()" for="">X</label>
+
+      <h1>Entre com as redes socias</h1>
+      <div class="fecebook" id="btnRed">
+        <img src="css/facebookBranco.png" width="20%">
+        <H2>Facebook</H2>
+      </div>
+
+      <div class="google" id="btnRed">
+        <img src="css/googleBranco.png" width="20%">
+        <H2>Google</H2>
+      </div>
+
+      <label for="Email">Email</label>
+      <input type="text" name="Email" id="Email" placeholder="Infinte@gmail.com">
+
+      <label for="Senha">Senha</label>
+      <input type="password" name="Senha" id="Senha" placeholder="***********">
+
+      <button type="button" onclick="FechaLogin()" class="BtnEntrar">Continuar</button>
+
+      <h3>Esqueceu a senha?</h3>
+    </div>
+  </div>
+
+  <div class="estagios">
+    <div class="circo" id="CirculoCad1">
+      <h1>1<br><br><br>Informações</h1>
+    </div>
+    <div class="traco" id="TracoCad1"></div>
+
+    <div class="circo" id="CirculoCad2">
+      <h1>2<br><br><br>Cadastro</h1>
+    </div>
+    <div class="traco" id="TracoCad2"></div>
+
+    <div class="circo" id="CirculoCad3">
+      <h1>3<br><br><br>Cartão</h1>
+    </div>
+  </div>
+  <!-- cadastro -->
+  <form class="FrmCadastro" action="">
+    <h1>Cadastro</h1><br><br><br>
+    <div class="etapa" id="etapaUm">
+
+      <label for="nome">Nome</label><br>
+      <input type="text" id=" nome" class="nomes" placeholder="Primeiro nome">
+
+      <input type="text" id="segundoNome" class="nomes" placeholder="Segundo nome"><br>
+
+      <label for="CPF"> CPF</label><br>
+      <input type="text" id="CPF" placeholder="754.533.733-22" onkeyup="CpfMask()"><br>
+
+      <button type="button" id="BtnEnivar" onclick="etapa2()">Continuar</button>
+
+    </div>
+
+    <div class="etapa" id="etapaDois">
+      <label for="email"> E-mail</label><br>
+      <input type="email" id="email" placeholder="Cliente@gmail.com"><br>
+
+      <label for="Celular"> Celular</label><br>
+      <input type="tel" id="Celular" placeholder="(11) 94821-7627" maxlength="15" onkeyup="DefineTel(this)"><br>
+
+      <label for="senha"> senha</label><br>
+      <input type="password" id="senha" placeholder="******************"><br>
+
+      <label for="senhaDenovo"> Confirme a senha</label><br>
+      <input type="password" id="senhaDenovo" placeholder="******************"><br>
+
+      <button type="button" class="BtnVoltar" onclick="etapa1()">Voltar</button>
+
+      <button type="button" id="BtnEnivar" onclick="etapa3()">Continaur</button>
+
+    </div>
+
+    <div class="etapa" id="etapaTres">
+      <label for="Numcard"> Número do cartão</label><br>
+      <input type="text" id="Numcard" placeholder="2345.1234.343"><br><br>
+
+      <input type="month" id="Numcard" class="cardCred">
+
+      <input type="tel" placeholder="CVC" id="ChaveSeguranca" class="cardCred" pattern="[0-9]{3}" maxlength="3"><br>
+
+
+      <input type="checkbox" id="termos" value="sim">
+      <label for="termos" class="privacidade">Aceita os termos e politicas de privacidade?</label><br>
+      <a href="">Ler termos e politicas de privacidade </a>
+
+      <button type="button" class="BtnVoltar" onclick="etapa2()">Voltar</button>
+
+      <button type="button" id="BtnEnivar">cadastrar-se</button>
+    </div>
+
+
+  </form>
+
+
+
+  <footer>
+    <img src="css/infiniteFooter.png" class="logoFooter">
+    <h4>Music for your soul</h4>
+
+    <a href="Music.html">Home</a>
+    <a href="Sobre.html">sobre</a>
+    <a href="Novidades.html">Novidade</a>
+    <a href="Premiun.html">Premiun</a>
+    <a href="">Baixar</a>
+
+    <div class="redesSocias">
+      <img src="css/facebookBranco.png" alt="" class="redes">
+      <img src="css/instagramBranco.png" alt="" class="redes">
+      <img src="css/linkedinBranco.png" alt="" class="redes">
+      <img src="css/twitterBranco.png" alt="" class="redes">
+    </div>
+
+    <div class="copyright">COPYRIGHT © 2021 ALL RIGHTS RESERVED</div>
+  </footer>
+  <script type="text/javascript" src="java/Music.js"></script>
+</body>
+
+</html>

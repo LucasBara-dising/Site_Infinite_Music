@@ -1,0 +1,1160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  padding-top: 1%;
+  padding-bottom: 0%;
+  position: relative;
+  color: #10133b;
+  background-color: #10133b;
+}
+
+.header .logo {
+  width: 15%;
+  margin: 2% 15% 0% 5%;
+  position: absolute;
+}
+
+.header .topicosHeader {
+  margin-left: 40%;
+  margin-top: 4%;
+}
+
+.header a {
+  text-decoration: none;
+  color: #f0f1ff;
+  font-size: 17px;
+  margin: 0% 0% 0% 4%;
+  position: relative;
+  display: inline;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #d9346e;
+}
+
+.header .BtnsLogin {
+  width: 15%;
+  margin-left: 80%;
+  top: 50%;
+  position: absolute;
+}
+
+.header .Login {
+  color: #f0f1ff;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.header .Login:hover {
+  color: #d9346e;
+}
+
+.header .cadastro {
+  color: #d9346e;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+.header .cadastro:hover{
+  color: #f0f1ff;
+}
+
+.header label {
+  display: none;
+  cursor: pointer;
+}
+
+.header .redesHeader .redes {
+  width: 10%;
+  margin-top: 70%;
+  margin-left: 10%;
+  display: inline;
+  cursor: pointer;
+}
+
+/* login */
+/* deixar fundo escuro */
+.loginFundo {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 180%;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 10%;
+}
+
+/* login em si */
+.loginFomr {
+  width: 26%;
+  height: 65vh;
+  padding: 2%;
+  left: 37%;
+  margin-top: -5%;
+  background-color: #122752;
+  position: fixed;
+  border-radius: 5px;
+  z-index: 11;
+}
+
+.loginFomr .fecha {
+  float: right;
+  left: 90%;
+  position: absolute;
+  cursor: pointer;
+  color: #f0f1ff;
+}
+
+.loginFomr #btnRed {
+  width: 42%;
+  height: 5vh;
+  margin: 5% 3% 10% 0%;
+  display: inline-block;
+  padding: 1% 0% 2% 3%;
+  font-size: 10px;
+  border-radius: 5px;
+  border: 2px solid #d9346e;
+  color: #f0f1ff;
+  background-color: #122752;
+  cursor: pointer;
+}
+
+.loginFomr #btnRed h2 {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.loginFomr label {
+  color: #bfbfbf;
+}
+
+.loginFomr input {
+  width: 100%;
+  height: 4vh;
+  background-color: #122752;
+  color: #f0f1ff;
+  margin-bottom: 10%;
+  margin-top: 2%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #d9346e;
+  border-radius: 2px;
+}
+
+.loginFomr .BtnEntrar {
+  width: 90%;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+  border: 2px solid #d9346e;
+  background-color: #122752;
+  color: #f0f1ff;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+.loginFomr .BtnEntrar:hover{
+  background-color: #d9346e;
+  transition: 1s;
+}
+
+.loginFomr h1 {
+  font-size: 15px;
+  color: #888;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.loginFomr h3 {
+  color: #bfbfbf;
+  font-style: italic;
+  float: right;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/*=====================================banner Home------------------------------------------- */
+.banner {
+  width: 90%;
+  height: 400px;
+  padding: 5%;
+  background-color: #122752;
+  position: relative;
+  transition: 0.3s;
+}
+
+.banner .textBanner {
+  width: 50%;
+  margin-top: 100%;
+}
+.banner button {
+  display: none;
+}
+
+.banner h1 {
+  font-size: 70px;
+  color: #f0f1ff;
+}
+
+.banner h2 {
+  font-size: 20px;
+  margin-top: 5%;
+  color: #f0f1ff;
+}
+
+.banner .banda {
+  width: 30vw;
+  left: 60%;
+  top: 20%;
+  position: relative;
+}
+
+/* ========================================SOBRE HOME================================= */
+
+.sobre {
+  width: 80%;
+  height: 100px;
+  padding: 10%;
+  padding-top: 5%;
+  background-color: #fefefe;
+  position: relative;
+}
+
+.sobre .sobreTitulo {
+  width: 40%;
+  font-size: 25px;
+  color: #10133b;
+}
+
+.sobre .sobreCorpo {
+  width: 50%;
+  position: relative;
+  float: right;
+  margin-top: -10%;
+  font-size: 14px;
+  color: #888;
+}
+
+.sobre .sobreCorpo .BtnCadastrese {
+  width: 30%;
+  float: left;
+  font-size: 15px;
+  margin-top: 5%;
+  padding: 3%;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #eeee;
+  background-color: #d9346e;
+}
+
+/* ====================================COMO FUNCIONA HOME======================================= */
+.comoFunciona {
+  width: 92%;
+  height: 450px;
+  padding: 4%;
+  background-color: #122752;
+  position: relative;
+}
+
+.comoFunciona h1 {
+  font-size: 60px;
+  color: #f0f1ff;
+  padding: 3%;
+  position: relative;
+}
+
+.comoFunciona .boxComoFunciona {
+  width: 30%;
+  height: 300px;
+  margin-left: 3%;
+  margin-top: 30%;
+  position: absolute;
+  display: inline-block;
+}
+
+.comoFunciona #boxComoFuncionaDois {
+  margin-left: 32%;
+}
+
+.comoFunciona #boxComoFuncionaTres {
+  margin-left: 65%;
+}
+
+.comoFunciona .boxComoFunciona .circulo {
+  width: 18%;
+  height: 20%;
+  border-radius: 50%;
+  left: 43%;
+  margin: 5% 0% 15% 0%;
+  background-color: #d9346e;
+  position: relative;
+}
+
+.comoFunciona .boxComoFunciona h2 {
+  font-size: 20px;
+  margin-top: 5%;
+  color: #f0f1ff;
+}
+
+.comoFunciona .boxComoFunciona h3 {
+  margin-top: 10%;
+  margin-left: -1%;
+  font-size: 15px;
+  color: #bfbfbf;
+}
+
+.comoFunciona .boxComoFunciona img {
+  width: 70%;
+  top: 45%;
+  left: 45%;
+  position: absolute;
+}
+/* ===================================BENEFIOS DO PREMIUN HOME==================================*/
+.benefio {
+  width: 96%;
+  height: 600px;
+  padding: 2%;
+  background-color: #fefefe;
+}
+
+.benefio h3 {
+  font-size: 45px;
+  color: #10133b;
+}
+
+.benefio .textPremiun {
+  width: 40%;
+  left: 55%;
+  margin-top: -4%;
+  float: right;
+  font-size: 13px;
+  color: #808080;
+  position: absolute;
+}
+
+.benefio .boxs {
+  width: 90%;
+  position: relative;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.benefio .boxPremiun {
+  width: 18%;
+  height: 50vh;
+  margin-left: 4%;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.benefio .boxPremiun h1 {
+  font-size: 15px;
+  color: #10133b;
+}
+
+.benefio .boxPremiun img {
+  width: 60%;
+  margin-left: 3%;
+  margin-bottom: 10%;
+  display: inline-block;
+}
+
+/* ==========================================SOBRE========================================== */
+/* ====================================img SOBRE------------------------------------------------- */
+.total {
+  width: 100%;
+  height: 840px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.total .img {
+  width: 90%;
+  margin: 10%;
+}
+
+.total .texto {
+  padding: 10%;
+}
+
+.total .texto h1 {
+  color: #122752;
+  margin-top: 25%;
+  margin-bottom: 10%;
+}
+
+.total .texto h2 {
+  color: #555;
+  margin-bottom: 10%;
+}
+
+/* ================================================PREMIUN===================================== */
+
+/* ============================banner PREMIUN------------------------------------------------- */
+.bannerPremiun {
+  width: 70%;
+  height: 40%;
+  padding: 5% 25% 10% 5%;
+  position: relative;
+  transition: 0.3s;
+  background-color: #122752;
+}
+
+.bannerPremiun .textBanner {
+  width: 50%;
+}
+
+.bannerPremiun h1 {
+  font-size: 70px;
+  margin-top: 50%;
+  color: #f0f1ff;
+}
+
+.bannerPremiun h2 {
+  font-size: 25px;
+  margin-top: 50%;
+  margin-top: 2%;
+  color: #f0f1ff;
+}
+
+.bannerPremiun .btnPremiun {
+  width: 30%;
+  position: relative;
+  font-size: 16px;
+  margin-top: 5%;
+  padding: 3%;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #eeee;
+  background-color: #d9346e;
+}
+
+/* =======================================BENEFIOS DO PREMIUN ==================================*/
+.benefioPremiun {
+  width: 70%;
+  height: 500px;
+  padding: 5% 15% 0% 15%;
+  background-color: #fefefe;
+  justify-content: center;
+}
+
+.benefioPremiun h3 {
+  font-size: 45px;
+  color: #10133b;
+  text-align: center;
+}
+
+.benefioPremiun .boxs {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: 20% 20% 20% 20%;
+  padding-top: 5%;
+}
+
+.benefioPremiun .boxPremiun {
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.benefioPremiun .boxPremiun h1 {
+  font-size: 15px;
+  color: #10133b;
+}
+
+.benefioPremiun .boxPremiun img {
+  width: 60%;
+  margin-left: 3%;
+  margin-bottom: 10%;
+  display: inline-block;
+}
+
+/* =========================================Planos PREMIUN==================================== */
+.planos {
+  width: 90%;
+  padding: 5%;
+  margin-top: -10%;
+}
+
+.planos .boxPlano {
+  width: 20%;
+  height: 60%;
+  background-color: #eee;
+  display: inline-block;
+  padding: 5%;
+  margin-left: 2%;
+  border-radius: 5px;
+  color: #474747;
+  box-shadow: 1px 0px 9px #333;
+}
+
+.planos .boxPlano .btnPremiun {
+  width: 50%;
+  height: 50px;
+  background-color: #eee;
+  display: inline-block;
+  position: relative;
+  padding: 5%;
+  margin: 15% 0% 0% 25%;
+  border-radius: 5px;
+  border: 2px solid #d9346e;
+  color: #474747;
+}
+
+.planos .boxPlano .btnPremiun:hover{
+  background-color: #d9346e;
+  color: #eee;
+  transition: all 0.5s;
+}
+
+.planos h1 {
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.planos .boxPlano .circulo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #d9346e;
+  position: absolute;
+  margin-top: 2%;
+}
+
+.planos .boxPlano .circulo h2 {
+  color: #f0f1ff;
+  margin-top: 0%;
+  margin-left: 20%;
+  font-size: 20px;
+}
+
+.planos .boxPlano h2 {
+  color: #474747;
+  font-size: 15px;
+  margin-left: 15%;
+  margin-top: 14%;
+}
+
+/* =========================================NOvidades------------------------------------------------- */
+h3 {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 25px;
+  color: #10133b;
+}
+.novidade {
+  width: 80%;
+  height: 1500px;
+  padding: 10%;
+  padding-top: 5%;
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+.novidade .boxNovidade {
+  position: relative;
+}
+
+.novidade .boxNovidade img {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+
+.novidade .boxNovidade h1 {
+  font-size: 17px;
+  color: #10133b;
+  margin-bottom: 5%;
+}
+
+.novidade a {
+  font-size: 15px;
+  color: #2c8fdb;
+  cursor: pointer;
+}
+
+/* ============================================CADASTRO========================= */
+.estagios {
+  width: 34%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 10% 30% 10% 30% 10%;
+  margin-top: 5%;
+  margin-left: 33%;
+}
+
+.estagios .circo {
+  width: 100%;
+  height: 45px;
+  border: 5px solid#ccc;
+  border-radius: 50%;
+  display: inline;
+  text-align: center;
+  align-content: center;
+}
+
+.estagios .circo h1 {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 25%;
+  color: #555;
+}
+
+.estagios .traco {
+  width: 95%;
+  height: 5px;
+  background-color: #ccc;
+  margin-top: 17%;
+  margin-left: 5%;
+}
+
+.FrmCadastro {
+  width: 46%;
+  height: auto;
+  left: 25%;
+  position: relative;
+  padding: 5%;
+  display: inline-block;
+}
+
+.FrmCadastro h2 {
+  transform: rotate(180deg);
+  float: left;
+  color: #333;
+}
+
+.FrmCadastro h1 {
+  float: left;
+  color: #333;
+}
+
+.FrmCadastro label {
+  display: inline-block;
+  margin: 20px 0px 10px 0px;
+}
+
+.FrmCadastro input {
+  display: inline-block;
+  width: 88%;
+  padding: 1%;
+  padding-bottom: 0%;
+  height: 4vh;
+  background-color: #fefefe;
+  color: #333;
+  margin-bottom: 5%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #d9346e;
+  border-radius: 2px;
+  font-family: arial;
+}
+
+.FrmCadastro .nomes {
+  display: inline-block;
+  width: 40%;
+  margin-right: 5%;
+  text-transform: capitalize;
+}
+
+.FrmCadastro .cardCred {
+  width: 30%;
+  margin-right: 5%;
+}
+
+.FrmCadastro input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.FrmCadastro #termos {
+  width: 3%;
+}
+
+.FrmCadastro .privacidade {
+  margin-left: 2%;
+}
+
+.FrmCadastro #BtnEnivar {
+  width: 30%;
+  position: relative;
+  float: right;
+  font-size: 16px;
+  margin-top: 10%;
+  margin-right: 10%;
+  padding: 3%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #eeee;
+  background-color: #d9346e;
+}
+.FrmCadastro .BtnVoltar {
+  background-color: #1f58c2;
+  width: 30%;
+  position: relative;
+  float: left;
+  font-size: 16px;
+  margin-top: 10%;
+  margin-right: 10%;
+  padding: 3%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #eeee;
+}
+
+.FrmCadastro .CasdastreEnivar:hover {
+  opacity: 0.8;
+}
+
+.FrmCadastro #etapaUm {
+  margin: 10% 0% 30% 0%;
+  display: block;
+}
+
+.FrmCadastro #etapaDois {
+  top: 25%;
+  display: none;
+}
+
+.FrmCadastro #etapaTres {
+  top: 25%;
+  display: none;
+}
+
+/* =============================================================FOTTER =============== */
+
+footer {
+  height: 200px;
+  padding: 8%;
+  text-align: center;
+  background-color: #122752;
+}
+
+footer .logoFooter {
+  width: 20%;
+}
+
+footer h4 {
+  color: azure;
+  margin-left: 1%;
+  margin-bottom: 3%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f0f1ff;
+  font-size: 17px;
+  margin: 0% 0% 0% 3%;
+  position: relative;
+  display: inline;
+  font-weight: bold;
+}
+
+footer .redesSocias {
+  width: 30%;
+  margin: 5% 0% 5% 34%;
+}
+
+footer .redesSocias .redes {
+  width: 8%;
+  margin-left: 10%;
+}
+
+footer .copyright {
+  color: #c9c9c9;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+/* respondive */
+@media (max-width: 800px) {
+  .header {
+    height: 150px;
+    color: #10133b;
+  }
+
+  .header .logo {
+    width: 70%;
+    left: 10%;
+    top: 35%;
+  }
+
+  .header label {
+    display: block;
+    font-size: 30px;
+    margin-left: 5%;
+    color: #f0f1ff;
+    position: absolute;
+  }
+
+  .header .topicosHeader {
+    float: left;
+    width: 50%;
+    position: fixed;
+    left: -100%;
+    top: -4%;
+    padding-top: 10%;
+    height: 100vh;
+    background-color: #10133b;
+    z-index: 10;
+  }
+
+  .header .topicosHeader a {
+    display: block;
+    margin-top: 25%;
+    margin-left: 15%;
+  }
+
+  .header .topicosHeader label {
+    display: block;
+    margin-left: 80%;
+  }
+
+  .header .redesHeader .redes {
+    width: 8%;
+    margin-top: 35%;
+    margin-left: 14%;
+    display: inline;
+    cursor: pointer;
+  }
+
+  .header .BtnsLogin {
+    width: 100%;
+    margin-left: 55%;
+    top: 20%;
+    position: absolute;
+    display: inline;
+  }
+
+  .header .Login {
+    font-size: 14px;
+    margin-left: 2%;
+    top: 5%;
+    position: absolute;
+    display: inline;
+  }
+  .header .cadastro {
+    font-size: 14px;
+    margin-left: 17%;
+    margin-top: 0%;
+    position: absolute;
+    display: inline;
+  }
+  .header .cadastro:hover{
+    color: #f0f1ff;
+  }
+
+
+  .loginFomr {
+    width: 50%;
+    top: 15%;
+    left: 5%;
+  }
+
+  .loginFomr #btnRed {
+    width: 40%;
+    margin: 5% 4% 10% 0%;
+  }
+
+  .loginFomr input {
+    width: 98%;
+    padding: 1%;
+    margin-top: 5%;
+    border: 2px solid #d9346e;
+    border-radius: 8px;
+  }
+
+  /* =============================================HOME==================================== */
+  .banner {
+    width: 90%;
+    height: 60%;
+    padding: 5%;
+  }
+
+  .banner .textBanner {
+    width: 100%;
+  }
+
+  .banner button {
+    width: 35%;
+    position: relative;
+    display: inline;
+    font-size: 15px;
+    margin-top: 8%;
+    padding: 3%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #eeee;
+    background-color: #d9346e;
+  }
+
+  .banner h1 {
+    font-size: 60px;
+  }
+
+  .banner h2 {
+    margin-top: 10%;
+    font-size: 15px;
+  }
+
+  .banner .banda {
+    display: none;
+  }
+
+  .sobre {
+    width: 90%;
+    height: 450px;
+    padding: 5%;
+  }
+
+  .sobre .sobreTitulo {
+    width: 90%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
+  .sobre .sobreCorpo {
+    width: 100%;
+    top: 10%;
+    left: 5%;
+  }
+
+  .sobre .sobreCorpo .BtnCadastrese {
+    width: 40%;
+    padding: 5%;
+    font-size: 14px;
+    margin-top: 10%;
+  }
+
+  .comoFunciona {
+    width: 90%;
+    height: 900px;
+    padding: 5%;
+  }
+
+  .comoFunciona h1 {
+    font-size: 30px;
+    position: relative;
+    left: -10%;
+    text-align: center;
+  }
+
+  .comoFunciona .boxComoFunciona {
+    width: 90%;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 30%;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .comoFunciona #boxComoFuncionaDois {
+    margin-left: 0%;
+    top: 40%;
+  }
+
+  .comoFunciona #boxComoFuncionaTres {
+    margin-left: 0%;
+    top: 70%;
+  }
+
+  .comoFunciona .boxComoFunciona .circulo {
+    width: 15%;
+    height: 20%;
+    margin: 5% 0% 10% 0%;
+  }
+
+  .benefio {
+    width: 94%;
+    height: 60%;
+    padding: 3%;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+
+  .benefio h3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 30px;
+  }
+
+  .benefio .textPremiun {
+    width: 90%;
+    font-size: 13px;
+    margin-top: -5%;
+    margin-bottom: 10%;
+    left: -5%;
+    position: relative;
+  }
+
+  .benefio .boxPremiun {
+    width: 50%;
+    margin-bottom: -15%;
+  }
+
+  /* =======================================CADASTRO====================================== */
+
+  .FrmCadastro {
+    width: 90%;
+    height: auto;
+    margin-top: 15%;
+    left: 5%;
+    position: relative;
+    padding: 5%;
+    display: inline-block;
+  }
+
+  /* ==========================================SOBRE======================================== */
+  .total {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .total .texto {
+    padding: 5%;
+    text-align: center;
+    margin-top: -45%;
+  }
+
+  /* =========================================PREMIUN========================================= */
+
+  .bannerPremiun {
+    width: 90%;
+    height: 45vh;
+    padding: 15% 5% 10% 5%;
+  }
+
+  .bannerPremiun h1 {
+    font-size: 32px;
+  }
+
+  .bannerPremiun h2 {
+    margin-top: 10%;
+    font-size: 15px;
+  }
+
+  .bannerPremiun .btnPremiun {
+    width: 40%;
+  }
+
+  .benefioPremiun {
+    width: 94%;
+    height: 1200px;
+    padding: 3%;
+    margin-bottom: 10%;
+    position: relative;
+    text-align: center;
+  }
+
+  .benefioPremiun h3 {
+    margin-top: 10%;
+    font-size: 30px;
+  }
+
+  .benefioPremiun .textPremiun {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    left: -5%;
+    position: relative;
+  }
+
+  .benefioPremiun .boxPremiun {
+    width: 50%;
+    margin-bottom: -10%;
+  }
+
+  .planos .boxPlano {
+    width: 70%;
+    height: 500px;
+    padding: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+
+  .planos .boxPlano .circulo {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+
+  .planos .boxPlano .circulo h2 {
+    color: #f0f1ff;
+    margin-top: 00%;
+    margin-left: 20%;
+    font-size: 20px;
+  }
+
+  .planos .boxPlano h2 {
+    color: #474747;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -5%;
+  }
+
+  /* ======================================================NOVIDADES========================== */
+
+  .novidade {
+    width: 80%;
+    height: 4500px;
+    grid-gap: 2%;
+    grid-template-columns: 100%;
+  }
+
+  footer {
+    margin-top: 20%;
+    clear: both;
+  }
+
+  footer .logoFooter {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+  footer h4 {
+    margin-bottom: 5%;
+  }
+
+  footer .redesSocias {
+    width: 50%;
+    margin: 10% 0% 10% 20%;
+  }
+}

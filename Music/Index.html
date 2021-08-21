@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/Music.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title></title>
+</head>
+
+<body onload="animateBanner()">
+  <!------------------------------------- Header------------------------------------- -->
+  <div class="header">
+    <img src="css/INfinite.png" alt="logo" class="logo" onclick="OpenHome()">
+
+    <label for="" onclick="barra()">&#x2630;</label>
+    <div class="topicosHeader" id="topicosHeader">
+      <label for="" onclick="fecha()">X</label>
+      <a href="Index.html">Home</a>
+      <a href="Sobre.html">sobre</a>
+      <a href="Novidades.html">Novidade</a>
+      <a href="Premiun.html">Premiun</a>
+      <a href="">Baixar</a>
+
+      <div class="redesHeader">
+        <img src="css/facebookBranco.png" alt="" class="redes">
+        <img src="css/instagramBranco.png" alt="" class="redes">
+        <img src="css/linkedinBranco.png" alt="" class="redes">
+        <img src="css/twitterBranco.png" alt="" class="redes">
+      </div>
+    </div>
+
+    <div class="BtnsLogin">
+      <h1 onclick="AbreLogin()" class="Login">Login |</h1>
+      <a href="Cadastro.html" class="cadastro">Cadastre-se</a>
+    </div>
+  </div>
+
+  <!-- --------------------------------Box Login--------------------------------- -->
+  <div class="loginFundo" id="loginFundo">
+    <div class="loginFomr" id="loginFomr">
+      <label class="fecha" onclick="FechaLogin()" for="">X</label>
+
+      <h1>Entre com as redes socias</h1>
+      <div class="fecebook" id="btnRed">
+        <img src="css/facebookBranco.png" width="20%">
+        <H2>Facebook</H2>
+      </div>
+
+      <div class="google" id="btnRed">
+        <img src="css/googleBranco.png" width="20%">
+        <H2>Google</H2>
+      </div>
+
+      <label for="Email">Email</label>
+      <input type="text" name="Email" id="Email" placeholder="Infinte@gmail.com">
+
+      <label for="Senha">Senha</label>
+      <input type="password" name="Senha" id="Senha" placeholder="***********">
+
+      <button type="button" onclick="FechaLogin()" class="BtnEntrar">Continuar</button>
+
+      <h3>Esqueceu a senha?</h3>
+    </div>
+  </div>
+
+  <!------------------------------- home ----------------------------------------->
+  <div class="banner">
+    <div class="textBanner" id="textBanner">
+      <h1>Música para todos </h1>
+      <h2>Infinte Music o seu novo jeito de ouvir musica, com você em todo lugar.</h2>
+    </div>
+
+    <img src="css/guitarra-eletrica.svg" alt="banda" class="banda" id="banda">
+
+    <button type="button">Baixar Aplicativo</button>
+  </div>
+
+  <!-- ------------------------Sobre o app ---------------------------------------->
+  <div class="sobre">
+    <div class="sobreTitulo">
+      <h1>Acesso ilimitado a 100 mil faixas</h1>
+    </div>
+
+    <div class="sobreCorpo">
+      <h2>Cadastre-se agora para ouvir as suas musicas favoritas. Com mais de 100 mil faixas
+        você pode escolher entre pagode, setenejo, funk entre muitos outras, dar play e aprovitar.
+      </h2>
+      <button class="BtnCadastrese">Cadastre-se</button>
+    </div>
+  </div>
+
+  <!-- -------------------Como Funciona------------------------------------ -->
+  <div class="comoFunciona" id="comoFunciona">
+    <h1>Como Funciona</h1>
+
+    <div class="boxComoFunciona" id="boxComoFunciona" data-aos="fade-up">
+      <div class="circulo">
+        <img src="css/fone.png" alt="fone">
+      </div>
+      <h2>Crie uma conta</h2>
+      <h3>Para criar uma conta é simples facil e gratis, esta esperando o que? crie agora a sua conta.</h3>
+    </div>
+
+    <div class="boxComoFunciona" id="boxComoFuncionaDois" data-aos="fade-up" data-aos="fade-up">
+      <div class="circulo">
+        <img src="css/cursor.png" alt="ponteiro do mouse">
+      </div>
+      <h2>Escolha uma musica</h2>
+      <h3>Dentre as mais de 100 mil musicas disponiveis escolha a que mais faz o seu estilo e de play. </h3>
+    </div>
+
+    <div class="boxComoFunciona" id="boxComoFuncionaTres" data-aos="fade-up">
+      <div class="circulo">
+        <img src="css/download.png" alt=" download">
+      </div>
+      <h2>Faça download das musicas</h2>
+      <h3>Para ouvir as suas musicas mesmo offline assine o Premiun para baixalas </h3>
+    </div>
+  </div>
+
+  <!--Beneficios-->
+  <div class="benefio">
+    <h3>Por que ser Premiun</h3>
+
+    <div class="textPremiun">
+      <h2>Com o Infinte Premiun você tem muitos outras beneficos como poder ouvir musicas sem propaganda, ter uma musica
+        com o melhor audio e poder fazer o download as suas faixas preferidas para escutar no carro, na academia em todo
+        lugar. </h2>
+    </div>
+
+    <div class="boxs">
+      <div class="boxPremiun">
+        <img src="css/SemAds.png" alt="">
+        <h1>Sem anuncios</h1>
+      </div>
+
+      <div class="boxPremiun">
+        <img src="css/alto-falantes.png" alt="">
+        <h1>Faça suas próprias playlists</h1>
+      </div>
+
+      <div class="boxPremiun">
+        <img src="css/PessoaFone.png" alt="caixa de som">
+        <h1>Baixe as suas músicas</h1>
+      </div>
+
+      <div class="boxPremiun">
+        <img src="css/musica.png" alt="">
+        <h1>Melhor qualidade de áudio</h1>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <img src="css/infiniteFooter.png" class="logoFooter">
+    <h4>Music for your soul</h4>
+
+    <a href="Music.html">Home</a>
+    <a href="Sobre.html">sobre</a>
+    <a href="Novidades.html">Novidade</a>
+    <a href="Premiun.html">Premiun</a>
+    <a href="">Baixar</a>
+
+    <div class="redesSocias">
+      <img src="css/facebookBranco.png" alt="" class="redes">
+      <img src="css/instagramBranco.png" alt="" class="redes">
+      <img src="css/linkedinBranco.png" alt="" class="redes">
+      <img src="css/twitterBranco.png" alt="" class="redes">
+    </div>
+
+    <div class="copyright">COPYRIGHT © 2021 ALL RIGHTS RESERVED</div>
+  </footer>
+
+  <script type="text/javascript" src="java/Music.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({
+      offset: -200,
+      delay: 0,
+      duration: 1000
+    });
+  </script>
+</body>
+
+</html>
