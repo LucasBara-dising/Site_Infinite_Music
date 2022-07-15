@@ -1,5 +1,6 @@
 //constantes e varaiveis 
 const loginFundo = document.getElementById("loginFundo");
+const loginBox = document.getElementById("loginFomr");
 const barraMenu = document.getElementById("topicosHeader");
 
 function barra() {
@@ -9,7 +10,7 @@ function barra() {
 
 // fecha menu barra lateral
 function fecha() {
-  barraMenu.style.left = "-100%";
+  barraMenu.style.left = "-130%";
   barraMenu.style.transition = "1s";
 }
 
@@ -23,6 +24,10 @@ function AbreLogin() {
   loginFundo.style.display = "block";
   loginFundo.style.top = "0%";
   loginFundo.style.transition = "all 1s"
+
+  loginBox.style.display = "block";
+  loginBox.style.top = "15%";
+  loginBox.style.transition = "all 2s"
 }
 
 window.onclick = function (event) {
@@ -49,25 +54,6 @@ function DefineTel(input) {
   input.value = cel;
 }
 
-// function CpfMask(){
-//   var Cpf=document.getElementById("CPF");
-
-//   if(Cpf.length==3){
-//     Cpf= Cpf.value + "." ;
-//   }
-
-//   else if(Cpf.length==7){
-//     Cpf= Cpf.value + "." ;
-//   }
-
-//   else if(Cpf.length==10){
-//     Cpf= Cpf.value + "." ;
-//   }
-
-//   else(Cpf.length==11){
-//     Cpf= Cpf.value + "-" ;
-//   }
-// }
 
 function CpfMask() {
   var Input = document.getElementById("CPF");
@@ -154,28 +140,7 @@ function aniamteBannerPremiun() {
 }
 
 
-window.onscroll = function () { scrollFunction() };
 
-function scrollFunction() {
-  var box1 = document.getElementById("boxComoFunciona");
-  var box2 = document.getElementById("boxComoFuncionaDois");
-  var box3 = document.getElementById("boxComoFuncionaTres");
-
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 800) {
-    box1.style.position = "absolute";
-    box1.style.marginTop = "0%";
-    box1.style.transition = "1s";
-
-    box2.style.position = "absolute";
-    box2.style.marginTop = "0%";
-    box2.style.transition = "1.5s";
-
-    box3.style.position = "absolute";
-    box3.style.marginTop = "0%";
-    box3.style.transition = "2s";
-
-  }
-}
 
 function OpenHome() {
   window.location.href = "Index.html";

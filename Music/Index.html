@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/Music.css">
+  <link rel="stylesheet" type="text/css" href="css/Responsive.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -15,6 +16,7 @@
     <img src="css/INfinite.png" alt="logo" class="logo" onclick="OpenHome()">
 
     <label for="" onclick="barra()">&#x2630;</label>
+
     <div class="topicosHeader" id="topicosHeader">
       <label for="" onclick="fecha()">X</label>
       <a href="Index.html">Home</a>
@@ -94,7 +96,6 @@
   <!-- -------------------Como Funciona------------------------------------ -->
   <div class="comoFunciona" id="comoFunciona">
     <h1>Como Funciona</h1>
-
     <div class="boxComoFunciona" id="boxComoFunciona" data-aos="fade-up">
       <div class="circulo">
         <img src="css/fone.png" alt="fone">
@@ -120,6 +121,7 @@
     </div>
   </div>
 
+
   <!--Beneficios-->
   <div class="benefio">
     <h3>Por que ser Premiun</h3>
@@ -137,18 +139,13 @@
       </div>
 
       <div class="boxPremiun">
-        <img src="css/alto-falantes.png" alt="">
-        <h1>Faça suas próprias playlists</h1>
-      </div>
-
-      <div class="boxPremiun">
-        <img src="css/PessoaFone.png" alt="caixa de som">
+        <img src="css/baixeMusica.png" alt="caixa de som">
         <h1>Baixe as suas músicas</h1>
       </div>
 
       <div class="boxPremiun">
-        <img src="css/musica.png" alt="">
-        <h1>Melhor qualidade de áudio</h1>
+        <img src="css/ousaMusica.png" alt="">
+        <h1>Pule quantas musicas quiser</h1>
       </div>
     </div>
   </div>
@@ -180,6 +177,29 @@
       delay: 0,
       duration: 1000
     });
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      var box1 = document.getElementById("boxComoFunciona");
+      var box2 = document.getElementById("boxComoFuncionaDois");
+      var box3 = document.getElementById("boxComoFuncionaTres");
+
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 800) {
+        box1.style.position = "absolute";
+        box1.style.marginTop = "0%";
+        box1.style.transition = "1s";
+
+        box2.style.position = "absolute";
+        box2.style.marginTop = "0%";
+        box2.style.transition = "1.5s";
+
+        box3.style.position = "absolute";
+        box3.style.marginTop = "0%";
+        box3.style.transition = "2s";
+
+      }
+    }
   </script>
 </body>
 

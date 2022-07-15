@@ -1,0 +1,475 @@
+/* respondive celular*/
+@media (max-width: 800px) {
+
+    .header {
+        height: 150px;
+        color: #10133b;
+    }
+
+    .header .logo {
+        width: 70%;
+        left: 10%;
+        top: 35%;
+    }
+
+    .header label {
+        display: block;
+        font-size: 30px;
+        margin-left: 5%;
+        color: #f0f1ff;
+        position: absolute;
+    }
+
+    .header .topicosHeader {
+        float: left;
+        width: 80%;
+        position: fixed;
+        left: -180%;
+        top: -4%;
+        padding-top: 10%;
+        height: 1000vh;
+        background-color: #10133b;
+        z-index: 10;
+    }
+
+    .header .topicosHeader a {
+        display: block;
+        margin-top: 25%;
+        margin-left: 15%;
+    }
+
+    .header .topicosHeader label {
+        display: block;
+        margin-left: 80%;
+    }
+
+    .header .redesHeader .redes {
+        width: 8%;
+        margin-top: 35%;
+        margin-left: 14%;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .header .BtnsLogin {
+        width: 40%;
+        left: -20%;
+        top: 20%;
+        position: absolute;
+        display: inline;
+    }
+
+    .header .Login {
+        font-size: 14px;
+        margin-left: 2%;
+        top: 5%;
+        position: relative;
+        display: inline;
+    }
+
+    .header .cadastro {
+        font-size: 14px;
+        margin-left: 2%;
+        margin-top: 0%;
+        position: relative;
+        display: inline;
+    }
+
+    .header .cadastro:hover {
+        color: #f0f1ff;
+    }
+
+    /* Tela login */
+    .loginFomr {
+        display: none;
+        width: 80%;
+        height: 55vh;
+        left: 5%;
+        right: 5%;
+        padding: 4%;
+    }
+
+    .loginFomr #btnRed {
+        width: 36%;
+        margin: 5% 2% 10% 2%;
+        height: 4vh;
+        padding: 3%;
+        padding-bottom: 0%;
+    }
+
+    .loginFomr input {
+        width: 98%;
+        padding: 1%;
+        margin-top: 5%;
+        border: 2px solid #d9346e;
+        border-radius: 8px;
+    }
+
+    /* =============================================HOME==================================== */
+    .banner {
+        width: 90%;
+        height: 60%;
+        padding: 5%;
+    }
+
+    .banner .textBanner {
+        width: 100%;
+    }
+
+    .banner button {
+        width: 35%;
+        position: relative;
+        display: inline;
+        font-size: 15px;
+        margin-top: 8%;
+        padding: 3%;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        color: #eeee;
+        background-color: #d9346e;
+    }
+
+    .banner h1 {
+        font-size: 60px;
+    }
+
+    .banner h2 {
+        margin-top: 10%;
+        font-size: 15px;
+    }
+
+    .banner .banda {
+        display: none;
+    }
+
+    .sobre {
+        width: 90%;
+        height: 450px;
+        padding: 5%;
+    }
+
+    .sobre .sobreTitulo {
+        width: 90%;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .sobre .sobreCorpo {
+        width: 100%;
+        top: 25%;
+        left: 5%;
+    }
+
+    .sobre .sobreCorpo .BtnCadastrese {
+        width: 40%;
+        padding: 5%;
+        font-size: 14px;
+        margin-top: 10%;
+    }
+
+    .comoFunciona {
+        width: 90%;
+        height: 900px;
+        padding: 5%;
+    }
+
+    .comoFunciona h1 {
+        font-size: 30px;
+        position: relative;
+        left: -10%;
+        text-align: center;
+    }
+
+    .comoFunciona .boxComoFunciona {
+        width: 90%;
+
+    }
+
+    .comoFunciona #boxComoFuncionaDois {
+        margin-left: 3%;
+        top: 40%;
+    }
+
+    .comoFunciona #boxComoFuncionaTres {
+        margin-left: 3%;
+        top: 70%;
+    }
+
+    .comoFunciona .boxComoFunciona .circulo {
+        width: 15%;
+        height: 20%;
+        margin: 5% 0% 10% 0%;
+    }
+
+    .benefio {
+        width: 94%;
+        height: 60%;
+        padding: 3%;
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+
+    .benefio h3 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 30px;
+    }
+
+    .benefio .textPremiun {
+        width: 90%;
+        font-size: 13px;
+        margin-top: -5%;
+        margin-bottom: 10%;
+        left: -5%;
+        position: relative;
+    }
+
+    .benefio .boxs {
+        width: 80%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+        grid-gap: 5%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .benefio .boxPremiun {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    /* =======================================CADASTRO====================================== */
+
+    .FrmCadastro {
+        width: 90%;
+        height: auto;
+        margin-top: 15%;
+        left: 5%;
+        position: relative;
+        padding: 5%;
+        display: inline-block;
+    }
+
+    /* ==========================================SOBRE======================================== */
+    .total {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .total .texto {
+        padding: 5%;
+        text-align: center;
+        margin-top: -45%;
+    }
+
+    /* =========================================PREMIUN========================================= */
+
+    .bannerPremiun {
+        width: 90%;
+        padding: 15% 5% 5% 5%;
+    }
+
+    .bannerPremiun h1 {
+        font-size: 32px;
+    }
+
+    .bannerPremiun h2 {
+        margin-top: 10%;
+        font-size: 15px;
+    }
+
+    .bannerPremiun .btnPremiun {
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    .benefioPremiun {
+        width: 94%;
+        height: 1200px;
+        padding: 3%;
+        margin-bottom: 10%;
+        position: relative;
+        text-align: center;
+    }
+
+    .benefioPremiun h3 {
+        margin-top: 10%;
+        font-size: 30px;
+    }
+
+    .benefioPremiun .textPremiun {
+        width: 90%;
+        font-size: 13px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        left: -5%;
+        position: relative;
+    }
+
+    .benefioPremiun .boxPremiun {
+        width: 50%;
+        margin-bottom: -10%;
+    }
+
+    .planos {
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+
+    .planos .boxPlano {
+        width: 80%;
+        height: 500px;
+        padding: 5%;
+        margin: 5%;
+    }
+
+    .planos .boxPlano .circulo {
+        position: relative;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    .planos .boxPlano .circulo h2 {
+        color: #f0f1ff;
+        margin-top: 00%;
+        margin-left: 20%;
+        font-size: 20px;
+    }
+
+    .planos .boxPlano h2 {
+        color: #474747;
+        font-size: 15px;
+        position: absolute;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+    /* ======================================================NOVIDADES========================== */
+
+    .novidade {
+        width: 80%;
+        height: 4500px;
+        grid-gap: 2%;
+        grid-template-columns: 100%;
+    }
+
+    footer {
+        margin-top: 20%;
+        clear: both;
+    }
+
+    footer .logoFooter {
+        width: 40%;
+        margin-bottom: 5%;
+    }
+
+    footer h4 {
+        margin-bottom: 5%;
+    }
+
+    footer .redesSocias {
+        width: 50%;
+        margin: 10% 0% 10% 20%;
+    }
+
+    /*=============== Cadastro ================*/
+    .estagios {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .estagios .circo {
+        width: 100%;
+        height: 30px;
+    }
+
+    .FrmCadastro {
+        width: 90%;
+        left: 0%;
+    }
+
+    .FrmCadastro #BtnEnivar {
+        width: 36%
+    }
+}
+
+/* respondive tela grande */
+@media (min-width: 1500px) {
+    .header .redesHeader {
+        display: none;
+    }
+
+    .header .logo {
+        width: 15%;
+        margin: 1% 15% 0% 5%;
+        position: absolute;
+    }
+
+    .header .topicosHeader {
+        margin-top: 3%;
+    }
+
+    /* --------home--------- */
+    .banner .banda {
+        top: 50%;
+    }
+
+    .sobre .sobreCorpo {
+        margin-top: -8%;
+    }
+
+    .comoFunciona .boxComoFunciona {
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    .comoFunciona #boxComoFuncionaDois {
+        margin-left: 35%;
+    }
+
+    .comoFunciona .boxComoFunciona .circulo {
+        width: 15%;
+        height: 20%;
+    }
+
+    .benefio .boxs {
+        margin-top: 5%;
+    }
+
+    .total {
+        margin-bottom: 10%;
+    }
+
+    .novidade {
+        margin-bottom: 20%;
+    }
+
+    .planos {
+        margin: 0%;
+    }
+
+    .estagios .circo {
+        width: 100%;
+        height: 60%;
+    }
+
+    .estagios .circo h1 {
+        margin-top: 40%;
+    }
+
+    .estagios .traco {
+        margin-top: 20%;
+    }
+
+    footer .copyright {
+        padding-bottom: 0%;
+    }
+
+}
