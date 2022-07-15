@@ -297,6 +297,7 @@
         margin-bottom: 10%;
         position: relative;
         text-align: center;
+        background-color: #474747;
     }
 
     .benefioPremiun h3 {
@@ -319,15 +320,16 @@
     }
 
     .planos {
-        margin-top: 10%;
-        margin-left: 0%;
+        width: 90%;
+        padding: 5%;
     }
 
     .planos .boxPlano {
         width: 80%;
         height: 500px;
         padding: 5%;
-        margin: 5%;
+        margin-left: 5%;
+        margin-bottom: 10%;
     }
 
     .planos .boxPlano .circulo {

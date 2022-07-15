@@ -506,8 +506,8 @@ body {
 .planos {
   width: 90%;
   padding: 5%;
-  margin: 10%;
   margin-top: -10%;
+  margin-bottom: 10%;
 }
 
 .planos .boxPlano {
